@@ -1,0 +1,16 @@
+.personal_info{
+    padding-left: 20px;
+    
+  }
+  .info_item{
+    padding-top: 10px ;
+    font-size: 16px;
+    color: rgb(81, 94, 92);
+    font-style: italic;
+    
+  }
+  .info_item:first-child{
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  

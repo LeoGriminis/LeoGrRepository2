@@ -1,0 +1,33 @@
+.contact__item{
+    padding: 10px;
+    position: relative;
+    transition: .2s;
+}
+.contact__item a{
+    text-decoration: none;
+}
+.contact__item:hover a{
+    color: goldenrod;
+}
+.contact__item:hover{
+    transform: scale(1.1);
+    transform: translate(10%);
+    background: rgb(217, 253, 163);
+    border-radius: var(--radius--);
+}
+.contact__item a.active{
+    color: goldenrod;
+}
+.contact__item:after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    top: 17px;
+    left: -5px;
+}
+.contact__item.active{
+    color: rgb(184, 159, 19);
+}

@@ -1,0 +1,9 @@
+.avatar_and_descr img{
+    margin: 10px;
+    width: 170px;
+    border-radius: var(--radius--);
+  }
+  .avatar_and_descr{
+    display: flex;
+    flex-direction: row;
+  }

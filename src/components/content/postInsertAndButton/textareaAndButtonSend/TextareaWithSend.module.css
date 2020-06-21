@@ -1,0 +1,28 @@
+.textA{
+    resize:none ;
+    outline: none;
+    border: none;
+    color: rgb(177, 142, 142);
+    padding: 5px;
+    font-size: 15px;
+    height: 40px;
+    border-radius: var(--radius--);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   }
+   .text_and_button{
+     padding: 0 0 20px 20px;
+     position: relative;
+     width: 80%;
+   }
+   .send{
+     background: chartreuse;
+     cursor: pointer;
+     border-radius: 5px;
+     width: 100px;
+     outline: none;
+     padding: 4px ;
+   }
+   .buttonDiv{
+     float: right;
+   }

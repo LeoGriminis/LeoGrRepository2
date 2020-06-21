@@ -1,0 +1,46 @@
+  .postItem{
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    color: rgb(175, 172, 172);
+    font-weight: 700;
+    border: 2px solid rgb(185, 167, 167);
+    border-radius: 5px;
+    margin: 30px 0 0 70px;
+    align-self: stretch;
+    background-color: cornsilk;
+  }
+  .postItem img{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    z-index: 1;
+  }
+  .like{
+    color: brown;
+    margin: 5px 0 20px 0;
+    cursor: pointer;
+    float: right;
+    box-shadow: 0px 2px 2px black;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  .postWithLike{
+  display: flex;
+  flex-direction: column ;
+  clear: both;
+  align-items: flex-end;
+  justify-content: stretch;
+  }
+  .personName{
+    color: rgb(101, 75, 194);
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    top: 60px;
+    left: -55px;
+    z-index: 2;
+  }
+ 

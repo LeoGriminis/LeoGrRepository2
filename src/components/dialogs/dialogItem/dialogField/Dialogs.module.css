@@ -1,0 +1,41 @@
+
+.contactsWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 50px 50px;
+}
+.names{
+    padding-right: 200px;
+    border-right: 1px solid black;
+}
+.messages{
+    padding-left: 50px;
+}
+.messText{
+   resize: none;
+   min-width: 300px;
+   height: 100%;
+   color: black;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.dialogPage{
+    display: flex;
+    flex-direction: column;
+}
+.MessageButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+}
+.button{
+    background: chartreuse;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    outline: none;
+    height: 35px;
+}

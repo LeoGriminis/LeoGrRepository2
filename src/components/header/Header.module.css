@@ -1,0 +1,12 @@
+.header{
+    grid-area: h;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,124,205,0.8883928571428571) 29%, rgba(0,212,255,1) 100%);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 1px 2px 3px black;
+  }
+  .header img{
+    width: 50px;
+    border-radius: inherit;
+    margin-left: 10px;
+  }

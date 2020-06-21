@@ -1,0 +1,10 @@
+.wallper{
+    display: flex;
+    justify-content: center;
+  }
+  .wallper img{
+    width: 100%;
+    height: 170px;
+    overflow: auto;
+    border-radius: 2px;
+  }

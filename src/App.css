@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: rgb(245, 245, 248);
+}
+body{
+  margin-top: 5px;
+}
+:root{
+  --radius--: 10px
+}
+.app-wrapper{
+  min-height: 98vh;
+
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  grid-template-areas:  
+  "h h"  
+  "n c";
+
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.app-wrapper-content{
+    color: black;
+    grid-area: c;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(201, 200, 221) 0%, rgba(187, 212, 178, 0.415) 76%, rgb(193, 225, 231) 100%);
+    border-radius: var(--radius--);
+}
+
+
+
+

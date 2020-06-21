@@ -1,0 +1,18 @@
+.message{
+    padding: 20px;
+    border: 1px solid rgb(133, 124, 124);
+    border-radius: var(--radius--);
+    margin-top: 2px;
+    position: relative;
+}
+.message:before{
+    content: '';
+    background: url(https://cdn.shopify.com/s/files/1/1061/1924/files/Kiss_Emoji_with_Closed_Eyes.png?8026536574188759287);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    left: -55%;
+    top: -15%;
+}
